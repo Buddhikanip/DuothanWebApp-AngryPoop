@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="inventry1.css" />
+    <link rel="stylesheet" href="dashboard.css" />
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!--Main Navigation-->
+    <header>
+        <!-- Sidebar -->
+        <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
+            <div class="position-sticky">
+                <div class="list-group list-group-flush mx-1 mt-4">
+                    <a href="#" class="list-group-item list-group-item-action py-3 ripple" aria-current="true">
+                        <i class="fas fa-boxes-stacked fa-fw me-3"></i><span>Inventory</span>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action py-3 ripple active">
+                        <i class="fas fa-regular fa-user fa-fw me-3"></i><span>Profile</span>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action py-3 ripple active">
+                        <i class="fas fa-right-from-bracket fa-fw me-3"></i><span>Logout</span>
+                    </a>
+                    
+                </div>
+            </div>
+        </nav>
+        <!-- Sidebar -->
+
+        <!-- Navbar -->
+        <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <!-- Container wrapper -->
+            <div class="container-fluid">
+                <!-- Toggle button -->
+                <!-- <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#sidebarMenu"
+                    aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button> -->
+
+                <!-- Brand -->
+                <a class="navbar-brand mx-4" href="#">
+                    <img src="MediFine_Logo 2.png" height="50"
+                        alt="MediFine_Logo" loading="lazy" />
+                </a>
+
+                <div class="mx-4" id="pname">
+                    Pharmacy Name
+                </div>
+
+                
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+    </header>
+    <!--Main Navigation-->
+
+    <!--Main layout-->
+    <main style="margin-top: 120px; margin-left: 2%;">
+
+        <div class="row">
+            <div class="col-9">
+                <h2>Inventory</h2>
+            </div>
+
+            <div class="col-3">
+                <button type="button" class="btn btn-outline-dark mx-4 pb-3 pt-3" data-mdb-ripple-color="dark">Add new drug</button>
+            </div>
+        </div>
+
+        <div class="container pt-4">
+            <div class="table-responsive table-scroll mt-1" data-mdb-perfect-scrollbar="true" style="position: relative; height: 500px">
+                <table class="table table-striped mb-3 ">
+                  <thead style="background-color: #002d72;">
+                    <tr>
+                      <th scope="col">Class name</th>
+                      <th scope="col">Type</th>
+                      <th scope="col">Hours</th>
+                      <th scope="col">Trainer</th>
+                      <th scope="col">Spots</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Like a butterfly</td>
+                      <td>Boxing</td>
+                      <td>9:00 AM - 11:00 AM</td>
+                      <td>Aaron Chapman</td>
+                      <td>10</td>
+                    </tr>
+                    <tr>
+                      <td>Mind &amp; Body</td>
+                      <td>Yoga</td>
+                      <td>8:00 AM - 9:00 AM</td>
+                      <td>Adam Stewart</td>
+                      <td>15</td>
+                    </tr>
+                    <tr>
+                      <td>Crit Cardio</td>
+                      <td>Gym</td>
+                      <td>9:00 AM - 10:00 AM</td>
+                      <td>Aaron Chapman</td>
+                      <td>10</td>
+                    </tr>
+                    <tr>
+                      <td>Wheel Pose Full Posture</td>
+                      <td>Yoga</td>
+                      <td>7:00 AM - 8:30 AM</td>
+                      <td>Donna Wilson</td>
+                      <td>15</td>
+                    </tr>
+                    <tr>
+                      <td>Playful Dancer's Flow</td>
+                      <td>Yoga</td>
+                      <td>8:00 AM - 9:00 AM</td>
+                      <td>Donna Wilson</td>
+                      <td>10</td>
+                    </tr>
+                    <tr>
+                      <td>Wheel Pose Full Posture</td>
+                      <td>Yoga</td>
+                      <td>7:00 AM - 8:30 AM</td>
+                      <td>Donna Wilson</td>
+                      <td>15</td>
+                    </tr>
+                    <tr>
+                      <td>Playful Dancer's Flow</td>
+                      <td>Yoga</td>
+                      <td>8:00 AM - 9:00 AM</td>
+                      <td>Donna Wilson</td>
+                      <td>10</td>
+                    </tr>
+                    <tr>
+                      <td>Wheel Pose Full Posture</td>
+                      <td>Yoga</td>
+                      <td>7:00 AM - 8:30 AM</td>
+                      <td>Donna Wilson</td>
+                      <td>15</td>
+                    </tr>
+                    <tr>
+                      <td>Playful Dancer's Flow</td>
+                      <td>Yoga</td>
+                      <td>8:00 AM - 9:00 AM</td>
+                      <td>Donna Wilson</td>
+                      <td>10</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+        </div>
+    </main>
+    <!--Main layout-->
+
+    <!-- <section class="intro">
+        <div class="bg-image h-100" style="background-color: #f5f7fa;">
+          
+        </div>
+      </section> -->
+
+    <!-- MDB -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
+
+</body>
+
+</html>
